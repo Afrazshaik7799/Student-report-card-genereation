@@ -40,7 +40,7 @@ function App() {
     const total = math + science + english
     const average = total / 3
 
-    let grade = ''
+    let grade
     if (average >= 90) grade = 'A+'
     else if (average >= 80) grade = 'A'
     else if (average >= 70) grade = 'B'
