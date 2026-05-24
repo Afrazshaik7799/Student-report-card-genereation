@@ -1,6 +1,6 @@
 # Student Report Card Frontend
 
-This repository contains a Next.js frontend for a student report card portal.
+This repository contains the updated Next.js frontend for the Student Report Card portal.
 
 ## Features
 
@@ -10,33 +10,45 @@ This repository contains a Next.js frontend for a student report card portal.
 - Student search and report card view
 - PDF report card export
 
-## Getting Started
+## Deployment
 
-First, run the development server:
+The frontend is ready to deploy to Vercel or any platform that supports Next.js.
+
+### Vercel Deployment
+
+1. Log in to [Vercel](https://vercel.com)
+2. Import the repository: `https://github.com/Afrazshaik7799/Student-report-card-genereation`
+3. Set the framework preset to **Next.js**
+4. Use the default build command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Deploy the app and open the generated Vercel URL.
 
-You can start editing the frontend by modifying `app/page.tsx` or components under `components/`.
+### Run locally
 
-### Demo credentials
+```bash
+git clone https://github.com/Afrazshaik7799/Student-report-card-genereation.git
+cd Student-report-card-genereation
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## Demo credentials
 
 - Teacher: `teacher` / `teacher123`
 - Student: `student` / `student123`
 
+## Notes
+
+- The new UI is fully implemented in this Next.js frontend.
+- If you want to connect a backend, update the API URL in the app and deploy the backend separately.
+
 ## Learn More
 
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
-
-<a href="https://v0.app/chat/api/kiro/clone/Afrazshaik7799/https-github.com-Afrazshaik7799-Student-report-card-genereation" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
