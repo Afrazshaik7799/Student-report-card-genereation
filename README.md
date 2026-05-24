@@ -7,7 +7,7 @@ This repository contains a full-stack student report card application.
 
 ## Deployment Links
 
-- Frontend: https://Afrazshaik7799.github.io/Student-report-card-genereation/
+- Frontend: http://localhost:3000/
 - Backend: Not deployed yet
 
 > The frontend is already published to GitHub Pages.
