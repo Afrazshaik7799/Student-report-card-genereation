@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: student-report-backend
+    env: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: npm run start
+    root: backend
+
+  - type: static
+    name: student-report-frontend
+    env: static
+    plan: free
+    branch: main
+    buildCommand: npm install && npm run build
+    publishPath: frontend/dist
+    root: ./

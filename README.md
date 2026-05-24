@@ -8,9 +8,10 @@ This repository contains a full-stack student report card application.
 ## Deployment Links
 
 - Frontend: https://Afrazshaik7799.github.io/Student-report-card-genereation/
-- Backend: https://<your-backend-host>.onrender.com
+- Backend: Not deployed yet
 
-> Update the backend URL above after deploying the backend.
+> The frontend is already published to GitHub Pages.
+> Deploy the backend separately and update this URL when ready.
 
 ## Frontend Deployment
 
