@@ -283,4 +283,292 @@ button:hover {
     width: 100%;
   }
 }
+
+.landing-page,
+.login-page,
+.dashboard-page {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.role-selection,
+.login-panel,
+.card-panel {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  padding: 32px;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.role-buttons button {
+  flex: 1;
+  min-width: 160px;
+}
+
+.note,
+.info-text,
+.error-text,
+.help-text {
+  margin-top: 18px;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.error-text {
+  color: #b91c1c;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 28px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.grading-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.grading-grid div {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.dashboard-actions {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.landing-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero-copy {
+  display: grid;
+  gap: 24px;
+}
+
+.eyebrow {
+  color: #2563eb;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 13px;
+}
+
+.hero-copy h1 {
+  font-size: 42px;
+  line-height: 1.05;
+  color: #0f172a;
+}
+
+.hero-copy p {
+  color: #475569;
+  max-width: 600px;
+  line-height: 1.75;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.hero-stats div {
+  background: #f8fafc;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+}
+
+.hero-stats strong {
+  display: block;
+  color: #0f172a;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.hero-stats span {
+  color: #475569;
+  font-size: 14px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 28px;
+  object-fit: cover;
+  min-height: 420px;
+  box-shadow: 0 30px 70px rgba(15, 23, 42, 0.12);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.contact-grid div {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.contact-grid p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.8;
+}
+
+.landing-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+
+.overview-card,
+.signup-card {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  padding: 32px;
+}
+
+.overview-card h2,
+.signup-card h2,
+.role-selection h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.overview-card ul {
+  margin-top: 18px;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.overview-card li {
+  position: relative;
+  padding-left: 24px;
+  color: #334155;
+}
+
+.overview-card li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.signup-card .form {
+  display: grid;
+  gap: 16px;
+}
+
+.signup-card .field-group select {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.success-text {
+  margin-top: 16px;
+  color: #065f46;
+  font-weight: 700;
+}
+
+.backend-link {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.backend-link a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.role-selection {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  padding: 32px;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.role-buttons button {
+  flex: 1;
+  min-width: 160px;
+}
+
+@media (max-width: 1100px) {
+  .landing-hero,
+  .landing-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid,
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 740px) {
+  .landing-hero,
+  .landing-content {
+    gap: 18px;
+  }
+
+  .landing-hero{
+    padding: 0;
+  }
+}
  
