@@ -30,13 +30,17 @@ npm run build
 ### Run locally
 
 ```bash
-git clone https://github.com/Afrazshaik7799/Student-report-card-genereation.git
+git clone https://github.com/Afrazhaik7799/Student-report-card-genereation.git
 cd Student-report-card-genereation
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
+Open the app locally at `http://localhost:3000` while developing.
+
+### Live deployment
+
+Once deployed, replace the local URL with your production URL from Vercel or another host.
 
 ## Demo credentials
 
